@@ -23,12 +23,12 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label345635 = New System.Windows.Forms.Label()
+        Me.etBuscar = New System.Windows.Forms.Label()
         Me.btPrimero = New System.Windows.Forms.Button()
         Me.btAnterior = New System.Windows.Forms.Button()
         Me.btSiguiente = New System.Windows.Forms.Button()
@@ -52,98 +52,108 @@ Partial Class Form1
         CType(Me.DsCiudades, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(32, 94)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(23, 18)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Id:"
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(32, 134)
+        Me.Label2.Location = New System.Drawing.Point(43, 116)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(66, 18)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Nombre:"
+        Me.Label2.Size = New System.Drawing.Size(30, 24)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "Id:"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(32, 184)
+        Me.Label3.Location = New System.Drawing.Point(43, 165)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(59, 18)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Estado:"
+        Me.Label3.Size = New System.Drawing.Size(84, 24)
+        Me.Label3.TabIndex = 1
+        Me.Label3.Text = "Nombre:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(32, 239)
+        Me.Label4.Location = New System.Drawing.Point(43, 226)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(112, 18)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Observaciones:"
+        Me.Label4.Size = New System.Drawing.Size(73, 24)
+        Me.Label4.TabIndex = 2
+        Me.Label4.Text = "Estado:"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(311, 35)
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(43, 294)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(197, 24)
-        Me.Label5.TabIndex = 4
-        Me.Label5.Text = "Listado de ciudades"
+        Me.Label5.Size = New System.Drawing.Size(142, 24)
+        Me.Label5.TabIndex = 3
+        Me.Label5.Text = "Observaciones:"
         '
-        'Label6
+        'Label345635
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(425, 269)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(63, 20)
-        Me.Label6.TabIndex = 5
-        Me.Label6.Text = "Buscar:"
+        Me.Label345635.AutoSize = True
+        Me.Label345635.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label345635.Location = New System.Drawing.Point(415, 29)
+        Me.Label345635.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label345635.Name = "Label345635"
+        Me.Label345635.Size = New System.Drawing.Size(248, 29)
+        Me.Label345635.TabIndex = 4
+        Me.Label345635.Text = "Listado de ciudades"
+        '
+        'etBuscar
+        '
+        Me.etBuscar.AutoSize = True
+        Me.etBuscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.etBuscar.Location = New System.Drawing.Point(584, 297)
+        Me.etBuscar.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.etBuscar.Name = "etBuscar"
+        Me.etBuscar.Size = New System.Drawing.Size(79, 25)
+        Me.etBuscar.TabIndex = 5
+        Me.etBuscar.Text = "Buscar:"
         '
         'btPrimero
         '
-        Me.btPrimero.Location = New System.Drawing.Point(69, 371)
+        Me.btPrimero.Location = New System.Drawing.Point(193, 457)
+        Me.btPrimero.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btPrimero.Name = "btPrimero"
-        Me.btPrimero.Size = New System.Drawing.Size(75, 23)
+        Me.btPrimero.Size = New System.Drawing.Size(100, 28)
         Me.btPrimero.TabIndex = 6
         Me.btPrimero.Text = "Primero"
         Me.btPrimero.UseVisualStyleBackColor = True
         '
         'btAnterior
         '
-        Me.btAnterior.Location = New System.Drawing.Point(226, 371)
+        Me.btAnterior.Location = New System.Drawing.Point(301, 457)
+        Me.btAnterior.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btAnterior.Name = "btAnterior"
-        Me.btAnterior.Size = New System.Drawing.Size(75, 23)
+        Me.btAnterior.Size = New System.Drawing.Size(100, 28)
         Me.btAnterior.TabIndex = 7
         Me.btAnterior.Text = "Anterior"
         Me.btAnterior.UseVisualStyleBackColor = True
         '
         'btSiguiente
         '
-        Me.btSiguiente.Location = New System.Drawing.Point(513, 371)
+        Me.btSiguiente.Location = New System.Drawing.Point(684, 457)
+        Me.btSiguiente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btSiguiente.Name = "btSiguiente"
-        Me.btSiguiente.Size = New System.Drawing.Size(75, 23)
+        Me.btSiguiente.Size = New System.Drawing.Size(100, 28)
         Me.btSiguiente.TabIndex = 8
         Me.btSiguiente.Text = "Siguiente"
         Me.btSiguiente.UseVisualStyleBackColor = True
         '
         'btUltimo
         '
-        Me.btUltimo.Location = New System.Drawing.Point(673, 371)
+        Me.btUltimo.Location = New System.Drawing.Point(792, 457)
+        Me.btUltimo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btUltimo.Name = "btUltimo"
-        Me.btUltimo.Size = New System.Drawing.Size(75, 23)
+        Me.btUltimo.Size = New System.Drawing.Size(100, 28)
         Me.btUltimo.TabIndex = 9
         Me.btUltimo.Text = "Ultimo"
         Me.btUltimo.UseVisualStyleBackColor = True
@@ -151,9 +161,10 @@ Partial Class Form1
         'ctId
         '
         Me.ctId.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.CiudadBindingSource, "id", True))
-        Me.ctId.Location = New System.Drawing.Point(150, 94)
+        Me.ctId.Location = New System.Drawing.Point(200, 116)
+        Me.ctId.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ctId.Name = "ctId"
-        Me.ctId.Size = New System.Drawing.Size(159, 20)
+        Me.ctId.Size = New System.Drawing.Size(211, 22)
         Me.ctId.TabIndex = 10
         '
         'CiudadBindingSource
@@ -169,76 +180,85 @@ Partial Class Form1
         'ctNombre
         '
         Me.ctNombre.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.CiudadBindingSource, "nombre", True))
-        Me.ctNombre.Location = New System.Drawing.Point(150, 135)
+        Me.ctNombre.Location = New System.Drawing.Point(200, 166)
+        Me.ctNombre.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ctNombre.Name = "ctNombre"
-        Me.ctNombre.Size = New System.Drawing.Size(159, 20)
+        Me.ctNombre.Size = New System.Drawing.Size(211, 22)
         Me.ctNombre.TabIndex = 11
         '
         'ctEstado
         '
         Me.ctEstado.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.CiudadBindingSource, "estado", True))
-        Me.ctEstado.Location = New System.Drawing.Point(150, 182)
+        Me.ctEstado.Location = New System.Drawing.Point(200, 224)
+        Me.ctEstado.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ctEstado.Name = "ctEstado"
-        Me.ctEstado.Size = New System.Drawing.Size(159, 20)
+        Me.ctEstado.Size = New System.Drawing.Size(211, 22)
         Me.ctEstado.TabIndex = 12
         '
         'ctBuscar
         '
-        Me.ctBuscar.Location = New System.Drawing.Point(513, 269)
+        Me.ctBuscar.Location = New System.Drawing.Point(701, 297)
+        Me.ctBuscar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ctBuscar.Name = "ctBuscar"
-        Me.ctBuscar.Size = New System.Drawing.Size(159, 20)
+        Me.ctBuscar.Size = New System.Drawing.Size(211, 22)
         Me.ctBuscar.TabIndex = 13
         '
         'ctObservaciones
         '
         Me.ctObservaciones.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.CiudadBindingSource, "observaciones", True))
-        Me.ctObservaciones.Location = New System.Drawing.Point(150, 239)
+        Me.ctObservaciones.Location = New System.Drawing.Point(200, 294)
+        Me.ctObservaciones.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ctObservaciones.Name = "ctObservaciones"
-        Me.ctObservaciones.Size = New System.Drawing.Size(159, 92)
+        Me.ctObservaciones.Size = New System.Drawing.Size(211, 112)
         Me.ctObservaciones.TabIndex = 15
         Me.ctObservaciones.Text = ""
         '
         'btAgregar
         '
-        Me.btAgregar.Location = New System.Drawing.Point(563, 89)
+        Me.btAgregar.Location = New System.Drawing.Point(623, 151)
+        Me.btAgregar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btAgregar.Name = "btAgregar"
-        Me.btAgregar.Size = New System.Drawing.Size(75, 23)
+        Me.btAgregar.Size = New System.Drawing.Size(100, 28)
         Me.btAgregar.TabIndex = 16
         Me.btAgregar.Text = "Agregar"
         Me.btAgregar.UseVisualStyleBackColor = True
         '
         'btMostrar
         '
-        Me.btMostrar.Location = New System.Drawing.Point(563, 135)
+        Me.btMostrar.Location = New System.Drawing.Point(758, 189)
+        Me.btMostrar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btMostrar.Name = "btMostrar"
-        Me.btMostrar.Size = New System.Drawing.Size(75, 23)
+        Me.btMostrar.Size = New System.Drawing.Size(100, 28)
         Me.btMostrar.TabIndex = 17
         Me.btMostrar.Text = "mostrar"
         Me.btMostrar.UseVisualStyleBackColor = True
         '
         'btEditar
         '
-        Me.btEditar.Location = New System.Drawing.Point(563, 184)
+        Me.btEditar.Location = New System.Drawing.Point(623, 226)
+        Me.btEditar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btEditar.Name = "btEditar"
-        Me.btEditar.Size = New System.Drawing.Size(75, 23)
+        Me.btEditar.Size = New System.Drawing.Size(100, 28)
         Me.btEditar.TabIndex = 18
         Me.btEditar.Text = "Editar"
         Me.btEditar.UseVisualStyleBackColor = True
         '
         'btBorrar
         '
-        Me.btBorrar.Location = New System.Drawing.Point(563, 239)
+        Me.btBorrar.Location = New System.Drawing.Point(623, 190)
+        Me.btBorrar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btBorrar.Name = "btBorrar"
-        Me.btBorrar.Size = New System.Drawing.Size(75, 23)
+        Me.btBorrar.Size = New System.Drawing.Size(100, 28)
         Me.btBorrar.TabIndex = 19
         Me.btBorrar.Text = "Borrar"
         Me.btBorrar.UseVisualStyleBackColor = True
         '
         'btBuscar
         '
-        Me.btBuscar.Location = New System.Drawing.Point(563, 308)
+        Me.btBuscar.Location = New System.Drawing.Point(755, 327)
+        Me.btBuscar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btBuscar.Name = "btBuscar"
-        Me.btBuscar.Size = New System.Drawing.Size(75, 23)
+        Me.btBuscar.Size = New System.Drawing.Size(100, 28)
         Me.btBuscar.TabIndex = 20
         Me.btBuscar.Text = "Buscar"
         Me.btBuscar.UseVisualStyleBackColor = True
@@ -246,11 +266,11 @@ Partial Class Form1
         'etPosicion
         '
         Me.etPosicion.AccessibleName = ""
-        Me.etPosicion.AutoSize = True
         Me.etPosicion.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.etPosicion.Location = New System.Drawing.Point(388, 381)
+        Me.etPosicion.Location = New System.Drawing.Point(517, 469)
+        Me.etPosicion.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.etPosicion.Name = "etPosicion"
-        Me.etPosicion.Size = New System.Drawing.Size(65, 15)
+        Me.etPosicion.Size = New System.Drawing.Size(109, 22)
         Me.etPosicion.TabIndex = 21
         Me.etPosicion.Text = "No registros"
         Me.etPosicion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -261,18 +281,19 @@ Partial Class Form1
         '
         'btGuardar
         '
-        Me.btGuardar.Location = New System.Drawing.Point(662, 89)
+        Me.btGuardar.Location = New System.Drawing.Point(758, 153)
+        Me.btGuardar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btGuardar.Name = "btGuardar"
-        Me.btGuardar.Size = New System.Drawing.Size(75, 23)
+        Me.btGuardar.Size = New System.Drawing.Size(100, 28)
         Me.btGuardar.TabIndex = 22
         Me.btGuardar.Text = "Guardar"
         Me.btGuardar.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1067, 554)
         Me.Controls.Add(Me.btGuardar)
         Me.Controls.Add(Me.etPosicion)
         Me.Controls.Add(Me.btBuscar)
@@ -289,13 +310,14 @@ Partial Class Form1
         Me.Controls.Add(Me.btSiguiente)
         Me.Controls.Add(Me.btAnterior)
         Me.Controls.Add(Me.btPrimero)
-        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.etBuscar)
+        Me.Controls.Add(Me.Label345635)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.CiudadBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
@@ -305,12 +327,12 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
+    Friend WithEvents Label345635 As Label
+    Friend WithEvents etBuscar As Label
     Friend WithEvents btPrimero As Button
     Friend WithEvents btAnterior As Button
     Friend WithEvents btSiguiente As Button

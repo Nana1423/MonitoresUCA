@@ -1,7 +1,7 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class Form1
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label2.Click
 
     End Sub
 
@@ -24,15 +24,15 @@ Public Class Form1
 
 
 
-    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label5.Click
 
     End Sub
 
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label4.Click
 
     End Sub
 
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label3.Click
 
     End Sub
 
@@ -121,5 +121,9 @@ Public Class Form1
                 Exit For
             End If
         Next i
+    End Sub
+
+    Private Sub Label345635_Click(sender As Object, e As EventArgs) Handles Label345635.Click
+
     End Sub
 End Class
