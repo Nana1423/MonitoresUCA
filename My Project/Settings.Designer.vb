@@ -74,6 +74,17 @@ Namespace My
                 Return CType(Me("DBMonitoresConnectionString"),String)
             End Get
         End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-PKALTLB;Initial Catalog=DBMonitoresUCA;Integrated Security=Tr"& _ 
+            "ue")>  _
+        Public ReadOnly Property DBMonitoresUCAConnectionString() As String
+            Get
+                Return CType(Me("DBMonitoresUCAConnectionString"),String)
+            End Get
+        End Property
     End Class
 End Namespace
 
