@@ -27,22 +27,22 @@ MonitoresUCA
 Represents a strongly typed in-memory cache of data.
 </summary>
 </member>
-<member name="T:MonitoresUCA.dsCiudades.CiudadDataTable">
+<member name="T:MonitoresUCA.dsCiudades.CuidadDataTable">
 <summary>
 Represents the strongly named DataTable class.
 </summary>
 </member>
-<member name="T:MonitoresUCA.dsCiudades.CiudadRow">
+<member name="T:MonitoresUCA.dsCiudades.CuidadRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
 </member>
-<member name="T:MonitoresUCA.dsCiudades.CiudadRowChangeEvent">
+<member name="T:MonitoresUCA.dsCiudades.CuidadRowChangeEvent">
 <summary>
 Row event argument class
 </summary>
 </member>
-<member name="T:MonitoresUCA.dsCiudadesTableAdapters.CiudadTableAdapter">
+<member name="T:MonitoresUCA.dsCiudadesTableAdapters.CuidadTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
